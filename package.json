@@ -1,6 +1,6 @@
 {
   "name": "gata-borracha",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "scripts": {
     "dev": "svelte-kit dev --host",
     "build": "svelte-kit build",
