@@ -4,13 +4,18 @@
     "description": "Gata Borracha - The Game",
     "icons": [
         {
-            "src": "/cat-logo-open.png",
+            "src": "/logo.png",
             "sizes": "any",
             "purpose": "any maskable"
+        },
+        {
+            "src": "/logo.png",
+            "sizes": "384x384",
+            "type": "image/png"
         }
     ],
     "start_url": "/",
     "display": "standalone",
-    "theme_color": "#ff000088",
-    "background_color": "#ff000088"
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff"
 }
