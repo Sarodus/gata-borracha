@@ -1,0 +1,16 @@
+{
+    "name": "Gata Borracha",
+    "short_name": "gata_borracha",
+    "description": "Gata Borracha - The Game",
+    "icons": [
+        {
+            "src": "/cat-logo-open.png",
+            "sizes": "any",
+            "purpose": "any maskable"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#ff000088",
+    "background_color": "#ff000088"
+}

@@ -7,8 +7,7 @@
             const response = await fetch(API_URL);
             const data = await response.json();
             phrases = data.ineverever;
-        }
-        catch (error) {
+        } catch (error) {
             console.error(error);
         }
 
@@ -24,6 +23,7 @@
     import { type Phrase, allPhrases } from '../store';
     import '../app.css';
     import { onMount } from 'svelte';
+    import '../registerServiceWorker'
 
     export let phrases: Phrase[] = [];
     onMount(() => {
