@@ -3,15 +3,15 @@
 	import SoundPlayer from '../soundPlayer';
 	import { onMount } from 'svelte';
 
-	const LOGO_OPEN = '/static/cat-logo-open.png';
-	const LOGO_CLOSED = '/static/cat-logo-close.png';
+	const LOGO_OPEN = '/cat-logo-open.png';
+	const LOGO_CLOSED = '/cat-logo-close.png';
 
 	let src = LOGO_OPEN;
 	let interval: NodeJS.Timeout;
 
 	let soundPlayer: SoundPlayer;
 	onMount(() => {
-		soundPlayer = new SoundPlayer('/static/meow.wav');
+		soundPlayer = new SoundPlayer('/meow.wav');
 		preloadImage(LOGO_CLOSED);
 	});
 

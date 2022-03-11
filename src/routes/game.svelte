@@ -7,7 +7,7 @@
 
 	let soundPlayer;
 	onMount(() => {
-		soundPlayer = new SoundPlayer('/static/live-toggle.wav');
+		soundPlayer = new SoundPlayer('/live-toggle.wav');
 	});
 
 	let index = 0;

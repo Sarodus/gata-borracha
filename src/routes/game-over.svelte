@@ -6,7 +6,7 @@
 </script>
 
 <div>
-	<img src="/static/cat-logo-close.png" alt="gata borracha logo" />
+	<img src="/cat-logo-close.png" alt="gata borracha logo" />
 </div>
 
 <div class="mt-4">

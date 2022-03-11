@@ -3,7 +3,7 @@
 	import SoundPlayer from '../soundPlayer';
 	let audio;
 	if (browser) {
-		audio = new SoundPlayer('/static/click.wav');
+		audio = new SoundPlayer('/click.wav');
 	}
 </script>
 
