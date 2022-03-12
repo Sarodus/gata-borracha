@@ -5,10 +5,12 @@
         let phrases;
         try {
             const response = await fetch(API_URL);
-            const data = await response.json();
-            phrases = data.ineverever;
+            if (response.status === 200) {
+                const data = await response.json();
+                phrases = data.ineverever;
+            }
         } catch (error) {
-            console.error(error);
+            console.error('ERROR GETTING PHRASES');
         }
 
         return {
@@ -23,7 +25,7 @@
     import { type Phrase, allPhrases } from '../store';
     import '../app.css';
     import { onMount } from 'svelte';
-    import '../registerServiceWorker'
+    import '../registerServiceWorker';
 
     export let phrases: Phrase[] = [];
     onMount(() => {

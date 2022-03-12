@@ -1,3 +1,4 @@
+import activateEvent from './activateEvent';
 import fetchEvent from './fetchEvent';
 import installEvent from './installEvent';
 
@@ -13,3 +14,8 @@ self.addEventListener('install', installEvent);
  * Intercepts requests made by the page so we can decide what to do with each one.
  */
 self.addEventListener('fetch', fetchEvent);
+
+/**
+ * Intercepts whe the service worker is activated.
+ */
+self.addEventListener('activate', activateEvent);
