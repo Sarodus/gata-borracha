@@ -1,6 +1,6 @@
 {
   "name": "gata-borracha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "dev": "svelte-kit dev --host",
     "build": "svelte-kit build",
@@ -12,6 +12,7 @@
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
   },
   "devDependencies": {
+    "@supabase/supabase-js": "^1.35.2",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "@typescript-eslint/eslint-plugin": "^5.10.1",

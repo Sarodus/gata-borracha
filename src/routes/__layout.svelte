@@ -1,5 +1,5 @@
 <script context="module">
-    const API_URL = 'https://us-central1-ineverever-4a3ef.cloudfunctions.net/iNeverEver';
+    const API_URL = '/phrases.json';
 
     export async function load({ fetch }) {
         let phrases;
